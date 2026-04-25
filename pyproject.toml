@@ -1,0 +1,12 @@
+[project]
+name = "email-sync"
+version = "0.1.0"
+description = "Google Workspace Gmail backup sync to MinIO"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-api-python-client>=2.167.0",
+    "google-auth>=2.39.0",
+    "gwbackupy>=0.2.0",
+    "minio>=7.2.15",
+]
